@@ -11,9 +11,5 @@ describe('isCharPresent checking...', () => {
         expect(isCharPresent('Very hot day today!', 'u')).toBe(false);
   });
 
- test('Symbol has to be only one', () => {
-    expect(isCharPresent('I`d like to trawel', 'to')).toBe('Symbol has to be only one.')
- })
-
 })
 
